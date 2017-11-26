@@ -93,7 +93,3 @@ yarn-error.log*
 
 # Yarn
 yarn.lock
-
-# Jest snapshots folder
-# Could ignore just .snap files too
-__snapshots__

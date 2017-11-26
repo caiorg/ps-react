@@ -13,7 +13,7 @@ const ComponentPage = ({component}) => {
 
       <h3>Example{examples.length > 1 && "s"}</h3>
       {examples.length > 0 ?
-        examples.map(example => <Example key={example.code} example={example} componentName />) : "No examples exist."
+        examples.map(example => <Example key={example.code} example={example} componentName={name} />) : "No examples exist."
       }
 
       <h3>Props</h3>
